@@ -1,0 +1,32 @@
+Marking Scheme
+1. 50% of the marks for execution and 50% of the marks for presentability (5%) and logic (45%)
+approximately.
+2.  Well-documented and readable programs will get a better score for presentability.
+3.  No marks for writing logically correct statements that are out of context.
+
+
+Problem Statement
+You need to construct a Binary Search Tree where each node stores a linked list. You can consider the
+first node of the linked list as the key to insert into an appropriate position in the BST. Given a file
+“file1.txt”, where the first line contains how many data records are present in this file (say n). Then
+there are n lines in the file, where each line contains a space separated set of integers to be inserted
+as a linked list into the BST using the first integer value as the key. Once such a BST is built, you will
+first need to sort all the linked lists at each of the nodes of the BST without touching the first element
+of the linked list. It means that you need to sort each linked list starting from its second node. Then 
+you will need to do an in-order traversal of this BST and print it to a new file called “file2.txt”. This in-
+order traversal is a special traversal that prints the linked lists stored while visiting each node of the
+BST. You need to print one linked list per line to “file2.txt”. Carefully observe the sample input and
+output displayed below to properly understand this. Please do the above tasks in a modular way as
+per the functions described below:
+
+a. Create a function readData() that reads data from “file1.txt” and creates a BST of linked lists
+as described above. 20 Marks
+b. Create a function sortLists() that uses any sorting algorithm of your choice to sort all the linked
+lists stored in the BST as per the above specifications. 17 Marks
+c. Create a function traverse() that performs the in-order traversal as described above and prints
+the output to the file “file2.txt”. Observe the sample output given below to understand it
+better. 17 Marks
+d. Create a main() function that drives the above program in the order of the steps described
+above. 6 Marks
+You are free to create your own structure definitions and choose the function signatures. Don’t change
+the function names.
