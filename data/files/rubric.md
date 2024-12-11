@@ -1,10 +1,15 @@
 ### Rubric for Evaluating Binary Search Tree with Linked Lists Assignment
 
-*Total Marks: 60*
-
 ---
 
-### Evaluation Criteria
+
+<!-- ### Marking Scheme to be considered for each question
+
+- Execution and Correctness (50%): Focuses on whether the program works correctly, meets all functional requirements, and produces the expected output.  
+- Logic (45%): Evaluates the clarity and accuracy of the underlying logic, ensuring it aligns with the problem specifications.  
+- Presentability (5%): Assesses code readability, organization, and documentation quality.   -->
+
+### Marks division and Functionalities to be evaluated
 
 #### 1. Program Correctness and Functionality (50 marks)
 
@@ -60,11 +65,7 @@
 
 ---
 
-### Marking Scheme
 
-- Execution and Correctness (50%): Focuses on whether the program works correctly, meets all functional requirements, and produces the expected output.  
-- Logic (45%): Evaluates the clarity and accuracy of the underlying logic, ensuring it aligns with the problem specifications.  
-- Presentability (5%): Assesses code readability, organization, and documentation quality.  
 
 ---
 
